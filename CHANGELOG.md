@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.2.0](https://github.com/pcvolkmer/atc-catalog/compare/v1.1.2...v1.2.0) (2026-09-03)
+
+
+### Features
+
+* Upgraded dependency version: core ([2ee03e5](https://github.com/pcvolkmer/atc-catalog/commit/2ee03e5e636fc0f8b6e2f9b686f4cfc1a0f6f950))
+
+
+### Bug Fixes
+
+* Adapted scalac linting and fixed reported errors (mostly unused imports) ([0937c32](https://github.com/pcvolkmer/atc-catalog/commit/0937c329ee2122eeada9c585f4d0caf0ac691fe4))
+* Added ATC 2025 ([8680be9](https://github.com/pcvolkmer/atc-catalog/commit/8680be93d973233612c652df4552e00b83f722dc))
+* bump core to 1.2.1 ([#5](https://github.com/pcvolkmer/atc-catalog/issues/5)); Refactored ATC catalog Loader to avoid problem of eagerly opened InputStream ([7bcfa3d](https://github.com/pcvolkmer/atc-catalog/commit/7bcfa3d1c540262c3cbe799609eb95606233e084))
+* Bump core to 1.3.2 ([b77de79](https://github.com/pcvolkmer/atc-catalog/commit/b77de797767ea9a60bc2ee24e577623147a29bdf))
+* Corrected CSV structure of ATC 2026 for entries which hadn't been correctl formatted by regex-based workaround applied to CSV export from spreadsheet ([#9](https://github.com/pcvolkmer/atc-catalog/issues/9)) ([c83679d](https://github.com/pcvolkmer/atc-catalog/commit/c83679db8fcd220bc6d64ad7cf9f8178c0415ad8))
+* Fixed linter errors in Test code ([d8bc9ae](https://github.com/pcvolkmer/atc-catalog/commit/d8bc9ae906db100d9d10a6cbabb63414096e7de7))
+* lazy loading and ATC version update ([#7](https://github.com/pcvolkmer/atc-catalog/issues/7)) ([7e41bb8](https://github.com/pcvolkmer/atc-catalog/commit/7e41bb83c95166d4468370623398c00fecf7277f))
+* linebreaks within atc name ([8cd3d09](https://github.com/pcvolkmer/atc-catalog/commit/8cd3d09708dcceef24030438019a1372938ad421))
+* linebreaks within atc name ([401549e](https://github.com/pcvolkmer/atc-catalog/commit/401549efb88ea842f513035519d1125a2a957fb1))
+* Removed double-quotes from catalog files (they are an artifact of the CSV export from spreadsheet, where cells containing line breaks are enclosed in double-quotes) ([bea4783](https://github.com/pcvolkmer/atc-catalog/commit/bea4783b87aeb3761838fdce8e6bd79c871913c0))
+* Upgraded to Scala 2.13.16 ([cb47e03](https://github.com/pcvolkmer/atc-catalog/commit/cb47e036f028fa9fd44674de1362fa09e361f53f))
+
 ## [1.1.2](https://github.com/dnpm-dip/atc-catalog/compare/v1.1.1...v1.1.2) (2026-07-14)
 
 
